@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width, initial-scale=1.0">
+        <title>Qu1etboy</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container {
+                text-align: center;
+                font-size: 64px;
+                margin: 32px;
+            }
+            .grid-container {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+                border: 2px solid black;
+                border-radius: 1.5rem;
+                overflow: hidden;
+                width: 960px;
+                margin-top: 32px;
+            }
+
+            .grid-container img {
+                width: 480px;
+                height: 500px
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            Chainsaw man's character
+        </div>
+        <div class="grid-container">
+            <img src="images/IMG_0928.JPG">
+            <img src="images/IMG_0929.JPG">
+            <img src="images/IMG_0930.JPG">
+            <img src="images/IMG_0931.JPG">
+        </div>
+    </body>
+</html>
